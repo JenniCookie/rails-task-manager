@@ -1,0 +1,11 @@
+<div class="show_task">
+
+  <h1><%= @task.title %></h1>
+
+  <p class='task_detail'><%= @task.details %></p>
+  <button type="button" class="btn btn-info edit-btn"><%= link_to "Edit my task", edit_path %></button>
+
+<hr>
+  <p><%= link_to "Back to list", tasks_path %></p>
+
+</div>
